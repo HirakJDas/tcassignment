@@ -1,0 +1,66 @@
+.Layout {
+  margin-top: 72px;
+}
+.Content {
+  display: flex;
+  height: 100%;
+  margin: 10px 10px;
+  box-shadow: 0 2px 3px #ccc;
+  border: 1px solid #eee;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.Input {
+  width: 40%;
+  margin: 10px;
+  text-align: center;
+  box-sizing: border-box;
+  box-shadow: 0 2px 3px #ccc;
+  border: 1px solid #eee;
+}
+.Output {
+  margin: 10px;
+  width: 40%;
+  text-align: center;
+  box-sizing: border-box;
+  box-shadow: 0 2px 3px #ccc;
+  border: 1px solid #eee;
+}
+
+.Buttons {
+  padding: 40px 10px 10px 10px;
+  margin: 10px;
+  align-items: center;
+  box-shadow: 0 2px 3px #ccc;
+}
+.Content button {
+  background-color: rgb(72, 72, 245);
+  color: white;
+  cursor: pointer;
+  height: 50px;
+  width: 100px;
+  margin: 20px;
+  display: block;
+  box-sizing: border-box;
+  box-shadow: 3px solid green;
+}
+
+.Content li {
+  display: block;
+  list-style: none;
+  text-align: center;
+  align-items: center;
+  margin: 20px;
+}
+.Content li:hover {
+  color: #40a4c8;
+}
+.Image {
+  border-radius: 50%;
+}
+
+@media (min-width: 600px) {
+  .Layout {
+    width: 450px;
+  }
+}
